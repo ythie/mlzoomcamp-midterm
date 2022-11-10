@@ -19,3 +19,4 @@ create /app directory as an empty Docker directory. I assume Flask and waitress 
 the background.
 
 To run docker, you need to run docker build -t predict . and docker run -it -p 9696:9696 predict:latest
+The project is run on this URL: url = "http://localhost:9696/predict"
