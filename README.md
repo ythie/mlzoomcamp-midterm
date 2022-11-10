@@ -15,4 +15,7 @@ trying several parameters, I conclude with a final model of XGBoosting with Dmat
 "notebook.ipynb".
 
 Please put the dataset, notebook.ipynb, train.py, predict.py, Pipfile, Pipfile.LOCK and Dockerfile in a single directory. Please
-create /app directory as an empty Docker directory.
+create /app directory as an empty Docker directory. I assume Flask and waitress already installed and Docker daemon is running in
+the background.
+
+To run docker, you need to run docker build -t predict . and docker run -it -p 9696:9696 predict:latest
